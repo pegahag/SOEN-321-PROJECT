@@ -1,0 +1,312 @@
+[
+  {
+    "scenario": "baseline_no_perturb",
+    "accuracy": 0.9646017699115044,
+    "n_features_affected": 0,
+    "features_affected": "",
+    "direction": null,
+    "magnitude_label": null,
+    "magnitude_value": 0.0,
+    "notes": "Baseline (no perturbation)"
+  },
+  {
+    "scenario": "feature_0_texture1_minute_pos",
+    "accuracy": 0.9646017699115044,
+    "n_features_affected": 1,
+    "features_affected": "texture1",
+    "direction": "pos",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.015357906858451157,
+    "notes": "Perturb single feature texture1 by 0.0153579 (minute) in pos direction"
+  },
+  {
+    "scenario": "feature_0_texture1_minute_neg",
+    "accuracy": 0.9646017699115044,
+    "n_features_affected": 1,
+    "features_affected": "texture1",
+    "direction": "neg",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.015357906858451157,
+    "notes": "Perturb single feature texture1 by 0.0153579 (minute) in neg direction"
+  },
+  {
+    "scenario": "feature_0_texture1_medium_pos",
+    "accuracy": 0.9734513274336283,
+    "n_features_affected": 1,
+    "features_affected": "texture1",
+    "direction": "pos",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.07678953429225578,
+    "notes": "Perturb single feature texture1 by 0.0767895 (medium) in pos direction"
+  },
+  {
+    "scenario": "feature_0_texture1_medium_neg",
+    "accuracy": 0.9557522123893806,
+    "n_features_affected": 1,
+    "features_affected": "texture1",
+    "direction": "neg",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.07678953429225578,
+    "notes": "Perturb single feature texture1 by 0.0767895 (medium) in neg direction"
+  },
+  {
+    "scenario": "feature_0_texture1_large_pos",
+    "accuracy": 0.9469026548672567,
+    "n_features_affected": 1,
+    "features_affected": "texture1",
+    "direction": "pos",
+    "magnitude_label": "large",
+    "magnitude_value": 0.15357906858451156,
+    "notes": "Perturb single feature texture1 by 0.153579 (large) in pos direction"
+  },
+  {
+    "scenario": "feature_0_texture1_large_neg",
+    "accuracy": 0.9557522123893806,
+    "n_features_affected": 1,
+    "features_affected": "texture1",
+    "direction": "neg",
+    "magnitude_label": "large",
+    "magnitude_value": 0.15357906858451156,
+    "notes": "Perturb single feature texture1 by 0.153579 (large) in neg direction"
+  },
+  {
+    "scenario": "feature_1_area3_minute_pos",
+    "accuracy": 0.9734513274336283,
+    "n_features_affected": 1,
+    "features_affected": "area3",
+    "direction": "pos",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.01217523956027063,
+    "notes": "Perturb single feature area3 by 0.0121752 (minute) in pos direction"
+  },
+  {
+    "scenario": "feature_1_area3_minute_neg",
+    "accuracy": 0.9557522123893806,
+    "n_features_affected": 1,
+    "features_affected": "area3",
+    "direction": "neg",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.01217523956027063,
+    "notes": "Perturb single feature area3 by 0.0121752 (minute) in neg direction"
+  },
+  {
+    "scenario": "feature_1_area3_medium_pos",
+    "accuracy": 0.7964601769911505,
+    "n_features_affected": 1,
+    "features_affected": "area3",
+    "direction": "pos",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.060876197801353144,
+    "notes": "Perturb single feature area3 by 0.0608762 (medium) in pos direction"
+  },
+  {
+    "scenario": "feature_1_area3_medium_neg",
+    "accuracy": 0.8938053097345132,
+    "n_features_affected": 1,
+    "features_affected": "area3",
+    "direction": "neg",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.060876197801353144,
+    "notes": "Perturb single feature area3 by 0.0608762 (medium) in neg direction"
+  },
+  {
+    "scenario": "feature_1_area3_large_pos",
+    "accuracy": 0.6194690265486725,
+    "n_features_affected": 1,
+    "features_affected": "area3",
+    "direction": "pos",
+    "magnitude_label": "large",
+    "magnitude_value": 0.12175239560270629,
+    "notes": "Perturb single feature area3 by 0.121752 (large) in pos direction"
+  },
+  {
+    "scenario": "feature_1_area3_large_neg",
+    "accuracy": 0.8141592920353983,
+    "n_features_affected": 1,
+    "features_affected": "area3",
+    "direction": "neg",
+    "magnitude_label": "large",
+    "magnitude_value": 0.12175239560270629,
+    "notes": "Perturb single feature area3 by 0.121752 (large) in neg direction"
+  },
+  {
+    "scenario": "feature_2_smoothness3_minute_pos",
+    "accuracy": 0.9646017699115044,
+    "n_features_affected": 1,
+    "features_affected": "smoothness3",
+    "direction": "pos",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.015219646017909625,
+    "notes": "Perturb single feature smoothness3 by 0.0152196 (minute) in pos direction"
+  },
+  {
+    "scenario": "feature_2_smoothness3_minute_neg",
+    "accuracy": 0.9646017699115044,
+    "n_features_affected": 1,
+    "features_affected": "smoothness3",
+    "direction": "neg",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.015219646017909625,
+    "notes": "Perturb single feature smoothness3 by 0.0152196 (minute) in neg direction"
+  },
+  {
+    "scenario": "feature_2_smoothness3_medium_pos",
+    "accuracy": 0.9734513274336283,
+    "n_features_affected": 1,
+    "features_affected": "smoothness3",
+    "direction": "pos",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.07609823008954812,
+    "notes": "Perturb single feature smoothness3 by 0.0760982 (medium) in pos direction"
+  },
+  {
+    "scenario": "feature_2_smoothness3_medium_neg",
+    "accuracy": 0.9557522123893806,
+    "n_features_affected": 1,
+    "features_affected": "smoothness3",
+    "direction": "neg",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.07609823008954812,
+    "notes": "Perturb single feature smoothness3 by 0.0760982 (medium) in neg direction"
+  },
+  {
+    "scenario": "feature_2_smoothness3_large_pos",
+    "accuracy": 0.8849557522123894,
+    "n_features_affected": 1,
+    "features_affected": "smoothness3",
+    "direction": "pos",
+    "magnitude_label": "large",
+    "magnitude_value": 0.15219646017909624,
+    "notes": "Perturb single feature smoothness3 by 0.152196 (large) in pos direction"
+  },
+  {
+    "scenario": "feature_2_smoothness3_large_neg",
+    "accuracy": 0.9203539823008849,
+    "n_features_affected": 1,
+    "features_affected": "smoothness3",
+    "direction": "neg",
+    "magnitude_label": "large",
+    "magnitude_value": 0.15219646017909624,
+    "notes": "Perturb single feature smoothness3 by 0.152196 (large) in neg direction"
+  },
+  {
+    "scenario": "multi_2of3_minute_pos",
+    "accuracy": 0.9734513274336283,
+    "n_features_affected": 2,
+    "features_affected": "texture1;area3",
+    "direction": "pos",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.013766573209360894,
+    "notes": "Perturb 2 (2/3) features: ['texture1', 'area3']"
+  },
+  {
+    "scenario": "multi_2of3_minute_neg",
+    "accuracy": 0.9557522123893806,
+    "n_features_affected": 2,
+    "features_affected": "texture1;area3",
+    "direction": "neg",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.013766573209360894,
+    "notes": "Perturb 2 (2/3) features: ['texture1', 'area3']"
+  },
+  {
+    "scenario": "multi_2of3_medium_pos",
+    "accuracy": 0.7522123893805309,
+    "n_features_affected": 2,
+    "features_affected": "texture1;area3",
+    "direction": "pos",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.06883286604680447,
+    "notes": "Perturb 2 (2/3) features: ['texture1', 'area3']"
+  },
+  {
+    "scenario": "multi_2of3_medium_neg",
+    "accuracy": 0.8672566371681416,
+    "n_features_affected": 2,
+    "features_affected": "texture1;area3",
+    "direction": "neg",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.06883286604680447,
+    "notes": "Perturb 2 (2/3) features: ['texture1', 'area3']"
+  },
+  {
+    "scenario": "multi_2of3_large_pos",
+    "accuracy": 0.5132743362831859,
+    "n_features_affected": 2,
+    "features_affected": "texture1;area3",
+    "direction": "pos",
+    "magnitude_label": "large",
+    "magnitude_value": 0.13766573209360894,
+    "notes": "Perturb 2 (2/3) features: ['texture1', 'area3']"
+  },
+  {
+    "scenario": "multi_2of3_large_neg",
+    "accuracy": 0.8053097345132744,
+    "n_features_affected": 2,
+    "features_affected": "texture1;area3",
+    "direction": "neg",
+    "magnitude_label": "large",
+    "magnitude_value": 0.13766573209360894,
+    "notes": "Perturb 2 (2/3) features: ['texture1', 'area3']"
+  },
+  {
+    "scenario": "multi_all_minute_pos",
+    "accuracy": 0.9734513274336283,
+    "n_features_affected": 3,
+    "features_affected": "texture1;area3;smoothness3",
+    "direction": "pos",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.01425093081221047,
+    "notes": "Perturb all features by minute"
+  },
+  {
+    "scenario": "multi_all_minute_neg",
+    "accuracy": 0.9557522123893806,
+    "n_features_affected": 3,
+    "features_affected": "texture1;area3;smoothness3",
+    "direction": "neg",
+    "magnitude_label": "minute",
+    "magnitude_value": 0.01425093081221047,
+    "notes": "Perturb all features by minute"
+  },
+  {
+    "scenario": "multi_all_medium_pos",
+    "accuracy": 0.6902654867256637,
+    "n_features_affected": 3,
+    "features_affected": "texture1;area3;smoothness3",
+    "direction": "pos",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.07125465406105236,
+    "notes": "Perturb all features by medium"
+  },
+  {
+    "scenario": "multi_all_medium_neg",
+    "accuracy": 0.8407079646017699,
+    "n_features_affected": 3,
+    "features_affected": "texture1;area3;smoothness3",
+    "direction": "neg",
+    "magnitude_label": "medium",
+    "magnitude_value": 0.07125465406105236,
+    "notes": "Perturb all features by medium"
+  },
+  {
+    "scenario": "multi_all_large_pos",
+    "accuracy": 0.3893805309734513,
+    "n_features_affected": 3,
+    "features_affected": "texture1;area3;smoothness3",
+    "direction": "pos",
+    "magnitude_label": "large",
+    "magnitude_value": 0.14250930812210472,
+    "notes": "Perturb all features by large"
+  },
+  {
+    "scenario": "multi_all_large_neg",
+    "accuracy": 0.7610619469026548,
+    "n_features_affected": 3,
+    "features_affected": "texture1;area3;smoothness3",
+    "direction": "neg",
+    "magnitude_label": "large",
+    "magnitude_value": 0.14250930812210472,
+    "notes": "Perturb all features by large"
+  }
+]

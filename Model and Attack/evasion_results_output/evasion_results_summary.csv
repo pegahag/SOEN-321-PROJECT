@@ -1,0 +1,32 @@
+scenario,accuracy,n_features_affected,features_affected,direction,magnitude_label,magnitude_value,notes
+baseline_no_perturb,0.9646017699115044,0,,,,0.0,Baseline (no perturbation)
+feature_0_texture1_minute_pos,0.9646017699115044,1,texture1,pos,minute,0.015357906858451157,Perturb single feature texture1 by 0.0153579 (minute) in pos direction
+feature_0_texture1_minute_neg,0.9646017699115044,1,texture1,neg,minute,0.015357906858451157,Perturb single feature texture1 by 0.0153579 (minute) in neg direction
+feature_0_texture1_medium_pos,0.9734513274336283,1,texture1,pos,medium,0.07678953429225578,Perturb single feature texture1 by 0.0767895 (medium) in pos direction
+feature_0_texture1_medium_neg,0.9557522123893806,1,texture1,neg,medium,0.07678953429225578,Perturb single feature texture1 by 0.0767895 (medium) in neg direction
+feature_0_texture1_large_pos,0.9469026548672567,1,texture1,pos,large,0.15357906858451156,Perturb single feature texture1 by 0.153579 (large) in pos direction
+feature_0_texture1_large_neg,0.9557522123893806,1,texture1,neg,large,0.15357906858451156,Perturb single feature texture1 by 0.153579 (large) in neg direction
+feature_1_area3_minute_pos,0.9734513274336283,1,area3,pos,minute,0.01217523956027063,Perturb single feature area3 by 0.0121752 (minute) in pos direction
+feature_1_area3_minute_neg,0.9557522123893806,1,area3,neg,minute,0.01217523956027063,Perturb single feature area3 by 0.0121752 (minute) in neg direction
+feature_1_area3_medium_pos,0.7964601769911505,1,area3,pos,medium,0.060876197801353144,Perturb single feature area3 by 0.0608762 (medium) in pos direction
+feature_1_area3_medium_neg,0.8938053097345132,1,area3,neg,medium,0.060876197801353144,Perturb single feature area3 by 0.0608762 (medium) in neg direction
+feature_1_area3_large_pos,0.6194690265486725,1,area3,pos,large,0.12175239560270629,Perturb single feature area3 by 0.121752 (large) in pos direction
+feature_1_area3_large_neg,0.8141592920353983,1,area3,neg,large,0.12175239560270629,Perturb single feature area3 by 0.121752 (large) in neg direction
+feature_2_smoothness3_minute_pos,0.9646017699115044,1,smoothness3,pos,minute,0.015219646017909625,Perturb single feature smoothness3 by 0.0152196 (minute) in pos direction
+feature_2_smoothness3_minute_neg,0.9646017699115044,1,smoothness3,neg,minute,0.015219646017909625,Perturb single feature smoothness3 by 0.0152196 (minute) in neg direction
+feature_2_smoothness3_medium_pos,0.9734513274336283,1,smoothness3,pos,medium,0.07609823008954812,Perturb single feature smoothness3 by 0.0760982 (medium) in pos direction
+feature_2_smoothness3_medium_neg,0.9557522123893806,1,smoothness3,neg,medium,0.07609823008954812,Perturb single feature smoothness3 by 0.0760982 (medium) in neg direction
+feature_2_smoothness3_large_pos,0.8849557522123894,1,smoothness3,pos,large,0.15219646017909624,Perturb single feature smoothness3 by 0.152196 (large) in pos direction
+feature_2_smoothness3_large_neg,0.9203539823008849,1,smoothness3,neg,large,0.15219646017909624,Perturb single feature smoothness3 by 0.152196 (large) in neg direction
+multi_2of3_minute_pos,0.9734513274336283,2,texture1;area3,pos,minute,0.013766573209360894,"Perturb 2 (2/3) features: ['texture1', 'area3']"
+multi_2of3_minute_neg,0.9557522123893806,2,texture1;area3,neg,minute,0.013766573209360894,"Perturb 2 (2/3) features: ['texture1', 'area3']"
+multi_2of3_medium_pos,0.7522123893805309,2,texture1;area3,pos,medium,0.06883286604680447,"Perturb 2 (2/3) features: ['texture1', 'area3']"
+multi_2of3_medium_neg,0.8672566371681416,2,texture1;area3,neg,medium,0.06883286604680447,"Perturb 2 (2/3) features: ['texture1', 'area3']"
+multi_2of3_large_pos,0.5132743362831859,2,texture1;area3,pos,large,0.13766573209360894,"Perturb 2 (2/3) features: ['texture1', 'area3']"
+multi_2of3_large_neg,0.8053097345132744,2,texture1;area3,neg,large,0.13766573209360894,"Perturb 2 (2/3) features: ['texture1', 'area3']"
+multi_all_minute_pos,0.9734513274336283,3,texture1;area3;smoothness3,pos,minute,0.01425093081221047,Perturb all features by minute
+multi_all_minute_neg,0.9557522123893806,3,texture1;area3;smoothness3,neg,minute,0.01425093081221047,Perturb all features by minute
+multi_all_medium_pos,0.6902654867256637,3,texture1;area3;smoothness3,pos,medium,0.07125465406105236,Perturb all features by medium
+multi_all_medium_neg,0.8407079646017699,3,texture1;area3;smoothness3,neg,medium,0.07125465406105236,Perturb all features by medium
+multi_all_large_pos,0.3893805309734513,3,texture1;area3;smoothness3,pos,large,0.14250930812210472,Perturb all features by large
+multi_all_large_neg,0.7610619469026548,3,texture1;area3;smoothness3,neg,large,0.14250930812210472,Perturb all features by large
